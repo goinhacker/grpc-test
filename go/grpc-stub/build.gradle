@@ -1,0 +1,6 @@
+apply plugin: "org.ysb33r.gnumake"
+
+make {
+    makefile 'Makefile'
+    targets 'clean', 'proto'
+}

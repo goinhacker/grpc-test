@@ -1,0 +1,9 @@
+task startServer(type: Exec) {
+    executable "sh"
+    args "-c", "go run server/server.go"
+}
+
+task startClient(type: Exec) {
+    executable "sh"
+    args "-c", "go run client/client.go"
+}

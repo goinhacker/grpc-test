@@ -1,0 +1,6 @@
+rootProject.name = 'grpc-test'
+
+include 'go:helloworld'
+include 'go:grpc-stub'
+include 'java:examples'
+include 'java:grpc-stub'
