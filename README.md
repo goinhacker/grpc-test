@@ -8,5 +8,5 @@ gRPC 테스트 프로젝트
    ```
    export PATH=$PATH:$GOPATH/bin
    ```
-3. Set your GOPATH on Makefile
+3. Make sure the GOPATH setting applies to your IDE.
    (http://depressiverobot.com/2016/02/05/intellij-path.html)
